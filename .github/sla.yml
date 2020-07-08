@@ -101,7 +101,7 @@
 - scheduleTask:
     action: sendEmail
     scope: pull_request
-    name: "send email given path change"
+    name: "send email given path change AND Label"
     trigger:
       - path
       - label
@@ -110,5 +110,5 @@
       message: "<p>This is another test message specifying that there is your PR has been merged.</p>"
       targetPath:
         - "specifications/compute/resource-manager/Microsoft.Compute/stable/**"
-      subject: "Action Required: Please respond to issue ${URL}"
+      subject: "ARMSignedOff ${URL}"
       to: ${AUTHOR}
