@@ -1,4 +1,4 @@
-## Ruby
+## The Ruby
 
 These settings apply only when `--ruby` is specified on the command line.
 
