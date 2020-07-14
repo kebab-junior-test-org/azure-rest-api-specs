@@ -88,19 +88,6 @@
 - scheduleTask:
     action: sendEmail
     scope: pull_request
-    name: "send email given path change"
-    trigger:
-      - path
-    args:
-      message: "<p>This is a test message specifying that there is a new PR and the following the compute folder path is concerned.</p>"
-      targetPaths:
-        - "specifications/compute/resource-manager/Microsoft.Compute/stable/**"
-      subject: "Action Required: Please respond to issue ${URL}"
-      to: ${AUTHOR}
-
-- scheduleTask:
-    action: sendEmail
-    scope: pull_request
     name: "send email given path change AND Label"
     trigger:
       - path
@@ -109,6 +96,6 @@
       booleanFilterExpression: ARMSignedOff
       message: "<p>This is another test message specifying that there is your PR has been merged.</p>"
       targetPaths:
-        - "specifications/compute/resource-manager/Microsoft.Compute/stable/**"
+        - "specification/compute/resource-manager/Microsoft.Compute/stable/**"
       subject: "ARMSignedOff ${URL}"
       to: ${AUTHOR}
