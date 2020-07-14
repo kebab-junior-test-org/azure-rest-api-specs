@@ -11,7 +11,7 @@
   ],
   "consumes": [
     "application/json",
-    "text/json"
+    "text/jsonX"
   ],
   "produces": [
     "application/json",
