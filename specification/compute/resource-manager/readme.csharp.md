@@ -1,4 +1,4 @@
-# C# Compute
+# C# Compute - Junior-3
 
 > see https://aka.ms/autorest
 
