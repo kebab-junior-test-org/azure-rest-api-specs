@@ -1,4 +1,4 @@
-# Compute
+# THE Compute
 
 > see https://aka.ms/autorest
 
