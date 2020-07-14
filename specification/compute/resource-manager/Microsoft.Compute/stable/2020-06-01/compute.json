@@ -1,5 +1,5 @@
 {
-  "swagger": "2.0",
+  "swagger": "2.01",
   "info": {
     "title": "ComputeManagementClient",
     "description": "The Compute Management Client.",
