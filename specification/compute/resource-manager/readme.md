@@ -1,4 +1,4 @@
-# Compute
+# The Azure Compute
 
 > see https://aka.ms/autorest
 
