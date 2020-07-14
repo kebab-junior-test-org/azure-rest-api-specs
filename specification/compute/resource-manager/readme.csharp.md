@@ -1,4 +1,4 @@
-# C# Compute
+# C# Compute as
 
 > see https://aka.ms/autorest
 
