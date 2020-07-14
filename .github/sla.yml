@@ -94,7 +94,7 @@
     args:	
       message: "<p>This is a test message specifying that there is a new PR and the following the compute folder path is concerned.</p>"	
       targetPaths:	
-        - "specifications/compute/**"	
+        - "specification/compute/**"	
       subject: "Action Required: Please respond to issue ${URL}"	
       to: ${AUTHOR}
 
